@@ -1,4 +1,4 @@
-//package Chapter08;
+package Chapter08;
 import java.util.List;
 import javax.swing.JButton;
 import javax.swing.JComboBox;

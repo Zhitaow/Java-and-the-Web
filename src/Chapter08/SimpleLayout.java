@@ -1,4 +1,4 @@
-//package Chapter08;
+package Chapter08;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,6 @@ public class SimpleLayout implements CalculatorLayout {
 		for (Component component:components) {
 			if (component.getClass().equals(JButton.class)) {
 				btnList.add((JButton) component);
-				
 			}
 		}
 	}
@@ -268,7 +267,8 @@ public class SimpleLayout implements CalculatorLayout {
 		JButton btn13 = new JButton("\u00f7");
 		btn13.setPreferredSize(new Dimension(55, 36));
 		btn13.setBorder(null);
-		btn13.setBackground(Color.LIGHT_GRAY);
+		btn13.setForeground(Color.WHITE);
+		btn13.setBackground(Color.ORANGE);
 		GridBagConstraints gbc_btn13 = new GridBagConstraints();
 		gbc_btn13.fill = GridBagConstraints.VERTICAL;
 		gbc_btn13.insets = new Insets(0, 0, 5, 5);
@@ -311,7 +311,8 @@ public class SimpleLayout implements CalculatorLayout {
 		JButton btn23 = new JButton("\u00D7");
 		btn23.setPreferredSize(new Dimension(55, 36));
 		btn23.setBorder(null);
-		btn23.setBackground(Color.LIGHT_GRAY);
+		btn23.setForeground(Color.WHITE);
+		btn23.setBackground(Color.ORANGE);
 		GridBagConstraints gbc_btn23 = new GridBagConstraints();
 		gbc_btn23.fill = GridBagConstraints.VERTICAL;
 		gbc_btn23.insets = new Insets(0, 0, 5, 5);
@@ -355,7 +356,8 @@ public class SimpleLayout implements CalculatorLayout {
 		JButton btn33 = new JButton("\u2212");
 		btn33.setPreferredSize(new Dimension(55, 36));
 		btn33.setBorder(null);
-		btn33.setBackground(Color.LIGHT_GRAY);
+		btn33.setForeground(Color.WHITE);
+		btn33.setBackground(Color.ORANGE);
 		GridBagConstraints gbc_btn33 = new GridBagConstraints();
 		gbc_btn33.fill = GridBagConstraints.VERTICAL;
 		gbc_btn33.insets = new Insets(0, 0, 5, 5);
@@ -399,7 +401,8 @@ public class SimpleLayout implements CalculatorLayout {
 		JButton btn43 = new JButton("+");
 		btn43.setPreferredSize(new Dimension(55, 36));
 		btn43.setBorder(null);
-		btn43.setBackground(Color.LIGHT_GRAY);
+		btn43.setForeground(Color.WHITE);
+		btn43.setBackground(Color.ORANGE);
 		GridBagConstraints gbc_btn43 = new GridBagConstraints();
 		gbc_btn43.fill = GridBagConstraints.VERTICAL;
 		gbc_btn43.insets = new Insets(0, 0, 5, 5);
@@ -447,6 +450,7 @@ public class SimpleLayout implements CalculatorLayout {
 		btn53.setBackground(Color.ORANGE);
 		GridBagConstraints gbc_btn53 = new GridBagConstraints();
 		gbc_btn53.fill = GridBagConstraints.VERTICAL;
+		gbc_btn53.insets = new Insets(0, 0, 5, 5);
 		gbc_btn53.gridx = 3;
 		gbc_btn53.gridy = 5;
 		btnPanel.add(btn53, gbc_btn53);

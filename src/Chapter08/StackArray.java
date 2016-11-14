@@ -1,5 +1,4 @@
-//package Chapter08;
-
+package Chapter08;
 import java.util.LinkedList;
 /**
  * The StackArray

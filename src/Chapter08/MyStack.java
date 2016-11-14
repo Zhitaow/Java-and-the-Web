@@ -1,4 +1,4 @@
-//package Chapter08;
+package Chapter08;
 
 /**
  * The Stack interface
