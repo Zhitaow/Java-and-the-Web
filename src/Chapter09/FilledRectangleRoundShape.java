@@ -1,8 +1,5 @@
 package Chapter09;
-
-
 import java.awt.*;
-
 import draw1.RectangleShape;
 
 public class FilledRectangleRoundShape extends RectangleShape {

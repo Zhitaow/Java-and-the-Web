@@ -3,7 +3,6 @@ package Chapter09;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
-
 import scribble3.ScribbleCanvas;
 import draw1.TwoEndsShape;
 import draw2.TwoEndsShapeTool;

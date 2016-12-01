@@ -2,7 +2,6 @@ package Chapter09;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
-
 import javax.swing.JFrame;
 import scribble3.*;
 @SuppressWarnings("serial")

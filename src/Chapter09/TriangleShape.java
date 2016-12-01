@@ -1,7 +1,6 @@
 package Chapter09;
 
 import java.awt.Graphics;
-
 import draw1.TwoEndsShape;
 
 @SuppressWarnings("serial")
