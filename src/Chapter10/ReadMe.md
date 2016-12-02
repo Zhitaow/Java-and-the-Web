@@ -1,7 +1,9 @@
 # The Minion Maze Game
 ## Use Case
 
-### Scope: the maze game application with enhanced features
+### Scope: 
+
+the maze game application with enhanced features
 
 ### Major success scenario:
   1. Open and run the runnable jar file “MinionMazeGame.jar”
@@ -12,7 +14,7 @@
   6. If the player fails to reach the destination within the step limit, the player will lose this round. A new game (at this level) will   initialize.
   
 ### Other Scenario: 
-  1. If images cannot be loaded, draws colored circles instead.
+  If images cannot be loaded, draws colored circles instead.
   
 ### Enhanced Functionality:
   1. This maze game uses depth-first-search algorithm to randomly create, and solve the maze.
