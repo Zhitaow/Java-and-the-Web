@@ -9,8 +9,8 @@
   4. The goal is to move the “Minion” to the “Boss” (destination) within the step limit in each round.
   5. Once the player wins this round, the maze will initialize a new game with increased difficulty level (more rooms created).
   6. If the player fails to reach the destination within the step limit, the player will lose this round. A new game (at this level) will initialize.
-### Other Scenario:
-If images cannot be loaded, draws colored circles instead.
+### Other Scenario: 
+  1. If images cannot be loaded, draws colored circles instead.
 ### Enhanced Functionality:
   1. This maze game uses depth-first-search algorithm to randomly create, and solve the maze.
   2. User can choose any number of row and column (n by m rooms)
