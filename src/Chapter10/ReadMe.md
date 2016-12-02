@@ -1,4 +1,5 @@
 # The Minion Maze Game
+
 ## Use Case
 
 ### Scope: 
@@ -22,3 +23,4 @@ the maze game application with enhanced features
   3. User can change the display mode among the classic, Snow-White and Harry-Potter.
   4. User can get routing hints from the current room to destination.
   5. Add counts of step, and clearance mode making the game more fun and challenging.
+
