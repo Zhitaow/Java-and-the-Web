@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="CENTER" fillWidth="false" minHeight="300.0" minWidth="400.0" prefHeight="600.0" prefWidth="800.0" spacing="20.0" 
+xmlns:fx="http://javafx.com/fxml" fx:controller="application.LoginController">
+   <children>
+      <TextField fx:id="userField" prefHeight="25.0" prefWidth="200.0" promptText="user name">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <PasswordField fx:id="passwordField" prefHeight="25.0" prefWidth="200.0" promptText="password" />
+      <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#loginButtonClicked" text="Login" />
+   </children>
+</VBox>
